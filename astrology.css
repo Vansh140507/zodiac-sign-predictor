@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/010/742/699/non_2x/gradient-background-with-blue-yellow-colors-wallpaper-or-banner-free-vector.jpg);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    justify-items: center;
+    align-items: center;
+   
+
+}
+.head{
+    font-size:50px;
+    font-weight:bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.content{
+    
+     display: flex;
+     flex-direction: column;
+     backdrop-filter:blur(8px);
+     gap: 20px;
+    align-items:center;
+    color: #224444;
+     height: 450px;
+     width: 400px;
+    background: rgba(255, 255, 255, 0.4);
+    border-radius: 25%;
+
+}
+#submit{
+     border-top-style: ridge;
+    border-block-start-style: ridge;
+    border: 10px;
+    height: 50px;
+    width: 100px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(135deg,#008080,#00ced1);
+    transition: 0.3;
+    cursor: pointer;
+    box-shadow:0 4px 15px rgba(0, 128,128,0.3);
+
+}
+#name{
+    border: 1px solid #008080;
+    box-shadow:rgba(0,128, 128, 0.2);
+      column-gap: 20px;
+     height: 30px;
+    border-radius: 20px;
+}
+
+#date{
+    column-gap: 20px;
+     height: 30px;
+    border-radius: 20px;
+
+}
